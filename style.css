@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #344151;
+    color: aliceblue;
+    
+}
+
+.counter-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.counter {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    background-color: #fff;
+    color: black;
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+
+button {
+    padding: 0.125rem 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
